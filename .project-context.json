@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "project_key": "hututuo--mullvad-adapter-windows",
+  "source_repository": "https://github.com/hututuo/mullvad-adapter-windows",
+  "public_documents": [
+    "README.md",
+    "AGENTS.md",
+    "WORKBUDDY_START_HERE.md",
+    "docs/windows-handoff.md",
+    "docs/templates/network-report.md",
+    "docs/network-capabilities.md",
+    "docs/clash-connect.md",
+    "PUBLIC_BASELINE.json"
+  ],
+  "handoff_mode": "diagnose_and_return_report_without_building"
+}
