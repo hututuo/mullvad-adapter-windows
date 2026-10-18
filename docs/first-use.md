@@ -1,5 +1,12 @@
 # First use on Windows
 
+A locally authorized Agent can download/verify/install the prebuilt release and
+guide account setup, Clash import/selection and real acceptance. The user need
+not preinstall everything. See [Agent installation](agent-installation.md).
+Credentials and security/device confirmations stay with the user; build tools
+are not required. The application itself still only opens the vendor download
+page, while an authorized local Agent may complete the vendor installation.
+
 The **使用引导** page shows the actual local setup state. A computer without a
 configured tunnel identity opens it automatically; existing users keep their city
 workspace and can revisit the guide from the sidebar.

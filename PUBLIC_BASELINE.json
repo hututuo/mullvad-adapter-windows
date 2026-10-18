@@ -23,5 +23,5 @@
     "current TUN fault recovery and long-term stability",
     "code signing"
   ],
-  "receiver_default": "diagnose_and_return_markdown_without_building"
+  "receiver_default": "when locally authorized install the release, guide account/Clash setup, verify actual success; diagnosis-only requests remain read-only; no build toolchain"
 }

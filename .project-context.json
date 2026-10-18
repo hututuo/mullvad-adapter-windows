@@ -10,7 +10,9 @@
     "docs/templates/network-report.md",
     "docs/network-capabilities.md",
     "docs/clash-connect.md",
-    "PUBLIC_BASELINE.json"
+    "PUBLIC_BASELINE.json",
+    "docs/agent-installation.md",
+    "docs/templates/setup-result.md"
   ],
-  "handoff_mode": "diagnose_and_return_report_without_building"
+  "handoff_mode": "authorized_install_guide_verify_then_diagnose_and_return_report_without_building"
 }

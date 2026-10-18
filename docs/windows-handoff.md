@@ -3,7 +3,7 @@
 这份文档面向第一次安装的用户，以及在用户自己电脑上继续开发、排查连接问题的 Agent。
 不需要原维护者的私人聊天、账号、密钥或私有开发仓库才能开始部署。
 
-**朋友默认只排查并发回文档，不需要编译。**先读[WorkBuddy接手指令](../WORKBUDDY_START_HERE.md)，
+**朋友不用编译。**用户委托安装配置时由Agent按[代安装流程](agent-installation.md)下载成品、安装、引导账号/Clash并验收；只问排障时先只读。先读[WorkBuddy接手指令](../WORKBUDDY_START_HERE.md)，
 按[报告模板](templates/network-report.md)保存本机报告，由用户审阅后私下发回维护者。
 需要代码修复时由维护者修改并构建；只有朋友另外明确要求自己开发时才准备下文工具链。
 
@@ -275,7 +275,9 @@ Mac PQ helper有其独立上游来源和许可，不代表此Windows包包含它
 
 ## 可直接发给朋友 Agent 的接手指令
 
-> 你负责本机Mullvad Adapter的部署和网络排障。先完整读AGENTS.md、本文、
+> 你负责本机Mullvad Adapter的部署和网络排障。安装配置委托按docs/agent-installation.md
+> 代下载校验/普通安装，协助账号与设备确认、一键Clash导入及选用，再分层验收；不是要求
+> 用户先自行装好。只有排障委托时先只读。先完整读AGENTS.md、本文、
 > docs/network-capabilities.md、docs/clash-connect.md与PUBLIC_BASELINE.json；核对安装包SHA256、
 > 实际runtime/manifest.json和源码版本。没有私有开发仓库权限应明确说明，但可以在这份
 > 公共交接范围内继续，不能假装已读私人历史。先本机白名单提取应用报告，不整体回显原始JSON；分开
